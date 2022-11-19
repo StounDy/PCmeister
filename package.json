@@ -1,0 +1,22 @@
+{
+  "name": "pre-entrega2",
+  "version": "1.0.0",
+  "description": "segunda pre entrega de mi proyecto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+"watch-css": "nodemon -e scss -x \"npm run build-css\""
+  }
+  ,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StounDy/Pre-entrega2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StounDy/Pre-entrega2/issues"
+  },
+  "homepage": "https://github.com/StounDy/Pre-entrega2#readme"
+}
